@@ -1,0 +1,97 @@
+/* Your existing styles here */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; /* Light gray background color */
+    color: #333; /* Dark text color */
+}
+.navbar {
+    background-color: #9d00ff; /* Purple navbar background color */
+    padding: 15px 0;
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.nav-list li {
+    margin: 0 20px;
+}
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.hero {
+    background-color: #c7c7c725; /* Purple hero section background color */
+    color: white; /* Text color for hero section */
+    padding: 100px 0;
+    text-align: center;
+}
+.cta-button {
+    display: inline-block;
+    background-color: white;
+    color: #8a4baf; /* Purple CTA button text color */
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.cta-button:hover {
+    background-color: #f2f2f2;
+}
+.about {
+    background-color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+.footer {
+    /* position:fixed; */
+    margin-top:90%;
+    text-align: center;
+    margin-bottom: 0%;
+    padding: 20px 0;
+    background-color: #8a4baf; /* Purple footer background color */
+    color: white; /* Text color for footer */
+}
+.navbar {
+    background-color: #a200ff93;
+    padding: 15px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    box-shadow: 0 2px 4px 6px, #272829;
+}
+
+.twof{
+    position:relative;
+    width: 80%;
+    height: 30cm;
+    /* background-color:#8a4baf3a; */
+    margin-right:12px;
+    margin-left :1.2%;;
+    margin-top: 12%;
+    /* opacity: 0.89;
+    backdrop-filter: blur(5px); */
+    text-align: center;
+    /* background-image:linear-gradient(to bottom right,#313866,#504099,#974EC3); */
+} 
+.twof .logo{
+    max-width:100%;
+    height:auto;
+}
+ 
+.home-details{
+    color:rgb(0, 0, 0);
+    font-size: xx-large;
+    opacity:1;
+}
